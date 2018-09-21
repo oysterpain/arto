@@ -1,0 +1,39 @@
+/* Pure Overrides */
+.title {
+  padding-top: 1em;
+  color: $color-secondary-1;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.2em;
+}
+
+.pure-menu {
+  text-align: center;
+}
+
+.pure-menu-link {
+  color: $color-secondary-2;
+}
+
+.pure-menu-active>.pure-menu-link, .pure-menu-link:focus, .pure-menu-link:hover {
+    background-color: $color-primary-2;
+    color: $color-secondary-1;
+}
+
+@media (max-width: 47.999em) {
+  .pure-menu-disabled, .pure-menu-heading, .pure-menu-link {
+    padding: 1em;
+  }
+  .pure-menu-disabled, .pure-menu-heading {
+    text-align: left;
+  }
+  .pure-menu {
+    display: block;
+  }
+  .pure-menu-active>.pure-menu-link, .pure-menu-link:focus, .pure-menu-link:hover {
+    background-color: $color-primary-1;
+  }
+}
