@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
     <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/transit.js"></script>
   </head>
   <body>
     <header>
@@ -40,21 +42,59 @@
         </div>
       </header>
 
-      <div class="main row">
-        <div class="pure-u-0 pure-u-sm-1-12">&nbsp;</div>
-        <div class="pure-u-1 pure-u-sm-5-6">
+      <div class="main pure-g">
+        <div class="pure-u-0 pure-u-md-1-12">&nbsp;</div>
 
-          <article>
-            <h2>Lorem ipsum</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu orci eget orci cursus consectetur eget accumsan urna. Suspendisse blandit, magna sit amet tempus rhoncus, libero mi tempus nisl, sodales placerat risus lorem ac lectus. Vivamus elementum dolor eros, sed cursus sapien lobortis at. Aliquam eleifend ac magna a molestie. Pellentesque elementum elit varius lacus dictum, et dictum mauris maximus. Pellentesque mi est, iaculis at elementum sit amet, porttitor quis tortor. Pellentesque eu bibendum felis. Sed vehicula mauris ac arcu tincidunt, a auctor nulla maximus. Quisque porttitor massa orci, quis fringilla arcu pellentesque quis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Cras molestie, diam ac tristique imperdiet, turpis urna bibendum purus, ut feugiat massa est a est.
-            </p>
-            <p>
-              Donec sodales libero lectus, ut luctus diam tempus vehicula. Curabitur sed nunc eget nibh convallis fermentum. Praesent eget nisl augue. Aliquam erat volutpat. Nulla et facilisis dolor. Donec quis felis at libero semper rutrum. Nunc varius massa vel est sagittis, id pretium enim tincidunt. Phasellus ut iaculis sem, quis scelerisque elit. Nullam accumsan, nisi eleifend faucibus tristique, mi nunc aliquet nibh, feugiat convallis felis sapien ullamcorper nisl. Donec quis nulla lorem. Curabitur egestas a mi et posuere. Fusce rhoncus molestie suscipit. Nunc commodo elementum auctor. Etiam ullamcorper libero ac massa posuere, nec fermentum enim ornare.
-            </p>
+        <article class="pure-u-1 pure-u-md-5-6">
+            <div class="slider-wrap">
+              <div class="slider">
+                <div class="slider__content">
+                  <div class="item">
+                    <video controls autoplay muted name="media">
+                      <source src="assets/video/TheFlavorGenome720p.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="item">
+                    <img src="assets/img/flavgenome1.png" alt="">
+                  </div>
+                  <div class="item">
+                    <img src="assets/img/flavgenome2.png" alt="">
+                  </div>
+                  <div class="item">
+                    <img src="assets/img/flavgenome3.png" alt="">
+                  </div>
+                  <div class="item">
+                    <img src="assets/img/flavgenome4.png" alt="">
+                  </div>
+                </div>
+
+                <div class="slider__nav">
+                  <a href="#" class="nav nav--left"><span class="arrow-left"></span></a>
+                  <a href="#" class="nav nav--right"><span class="arrow-right"></span></a>
+                </div>
+
+              </div>
+            </div>
           </article>
-        </div>
-        <div class="pure-u-0 pure-u-sm-1-12">&nbsp;</div>
+        <div class="pure-u-0 pure-u-md-1-12">&nbsp;</div>
+        <div class="pure-u-0 pure-u-md-1-12">&nbsp;</div>
+        <article class="pure-u-1 pure-u-md-5-6">
+          <h4>Lorem Ipsum</h4>
+          <p>
+            However, Derrida uses the term ‘the neopatriarchialist paradigm of
+            consensus’ to denote a material paradox. The example of subcultural capitalist
+            theory depicted in Smith’s Dogma emerges again in Clerks,
+            although in a more self-referential sense.
+          </p>
+          <p>
+            But the characteristic theme of the works of Smith is the common ground
+            between society and truth. Subcultural capitalist theory implies that
+            consciousness may be used to exploit the Other, but only if the premise of
+            realism is valid; if that is not the case, sexuality is capable of
+            significance.
+          </p>
+        </article>
+        <div class="pure-u-0 pure-u-md-1-12">&nbsp;</div>
       </div>
       <footer>
         <a href="">Oysterpain Productions</a>
@@ -63,5 +103,6 @@
         <p class="copyright">Copyright &copy;2018</p>
       </footer>
       <script type="text/javascript" src="js/nav.js"></script>
+      <script type="text/javascript" src="js/slider.js"></script>
   </body>
 </html>
